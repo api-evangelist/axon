@@ -1,20 +1,52 @@
 aid: axon
 name: Axon
-description: 'Axon is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Axon is an early-stage artificial intelligence company building real-time
+  predictive intelligence on a brain-inspired architecture. Its approach centers
+  on small, efficient "world models" that learn continuously on-device rather
+  than depending on large models or the cloud, giving an edge-first design lower
+  latency and lower cost. The initial focus is high-frequency trading and capital
+  markets, where real-time prediction is decisive, with future applications
+  targeted at wearables, edge devices, and robotics. Axon is backed by Northzone,
+  Concept Ventures, a16z Speedrun, and EWOR. As of this profile the company is
+  pre-product with no public developer API, documentation, SDKs, or developer
+  portal; this repository tracks it in the API Evangelist network for enrichment
+  as its developer surface emerges.
 url: https://raw.githubusercontent.com/api-evangelist/axon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - northzone
+- concept-ventures
+- a16z-speedrun
+- ewor
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/691fb35950d599f653abc1fc/6921bfee19de659f7d5356d2_9fd7bb889ea01501f6b4699b2020a0e5_Logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Ai
+- Artificial Intelligence
+- Machine Learning
+- Predictive Intelligence
+- World Models
+- Edge Computing
+- Fintech
+- High-Frequency Trading
+- Robotics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +54,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/axon-domain-security.yml
 - type: Website
   url: https://www.axonlabs.co
+- type: Careers
+  url: https://careers.axonlabs.co
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
