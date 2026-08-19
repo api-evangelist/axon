@@ -34,7 +34,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.prod.website-files.com/691fb35950d599f653abc1fc/6921bfee19de659f7d5356d2_9fd7bb889ea01501f6b4699b2020a0e5_Logo.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
