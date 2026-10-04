@@ -51,7 +51,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Predictive Intelligence
 - World Models
 - Edge Computing
@@ -68,6 +68,7 @@ tags_raw:
 - Fintech
 - High-Frequency Trading
 - Robotics
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
